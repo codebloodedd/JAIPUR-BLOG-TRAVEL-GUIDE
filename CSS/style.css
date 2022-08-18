@@ -1,0 +1,164 @@
+body {
+  background-color: #FFC0D3;
+}
+
+hr {
+  border-style: dotted none none;
+  border-color: #FFC0D3;
+  border-width: 5px;
+  height: 0px;
+  width: 10%;
+  margin: 5% auto;
+}
+
+/* title */
+#title {
+  background-image: url(hawamahal.jpg);
+  background-size: cover;
+  color: #E8F9FD;
+}
+
+.container-fluid {
+  padding: 1% 15% 15%;
+}
+
+.name {
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+  font-size: 5rem;
+  line-height: 1.5;
+  margin-top: 10%;
+  letter-spacing: 0.2rem;
+  margin-bottom: 0;
+}
+
+.up-title {
+  font-size: 2rem;
+  line-height: 1;
+  margin-top: 7%;
+  margin-bottom: 10%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.pink {
+  font-size: 2.5rem;
+  line-height: 1;
+  font-family: 'Playfair Display', serif;
+  color: #FFC4C4;
+}
+
+.intro {
+  font-family: 'Playfair Display', serif;
+  margin-top: 0;
+  margin-bottom: 7%;
+  font-size: 1.7rem;
+}
+
+.rImage {
+  width: 60%;
+  margin-left: 30%;
+}
+
+.rightImage {
+  margin: 10% 0 0%;
+  padding-right: 0;
+}
+
+.righttext {
+  margin: 10% 0 0%;
+  padding: 7% 10% 0%;
+}
+
+.rightHead {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+}
+
+.rtext {
+  margin-right: 7%;
+}
+
+.rightContent {
+  font-family: 'Alumni Sans', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 550;
+}
+
+/* know jaipur */
+#know {
+  text-align: left;
+  color: #524A4E;
+}
+
+.lImage {
+  width: 60%;
+  margin-left: 10%;
+}
+
+.leftImage {
+  margin: 10% 0 0%;
+  padding-left: 0;
+}
+
+.lefttext {
+  margin: 10% 0 0%;
+  padding: 7% 10% 0%;
+}
+
+.leftHead {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+}
+
+.ltext {
+  margin-left: 7%;
+}
+
+.leftContent {
+  font-family: 'Alumni Sans', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 550;
+}
+
+/* places to visit */
+#places {
+  color: #524A4E;
+}
+
+.place {
+  margin:
+}
+
+.placesTitle {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  padding: 0% 5%;
+  margin: auto 15%;
+  text-align: center;
+  background-color: #524A4E;
+  color: #FFC0D3;
+}
+
+.hawamahal {
+  width: 60%;
+}
+
+.hmtext ,.cptext, .aftext {
+  padding-top: 2%;
+}
+
+@media (max-width: 1028px) {
+  .leftImage {
+    text-align: center;
+  }
+  .lImage{
+    margin:auto;
+  }
+  .rightImage {
+    text-align: center;
+  }
+  .rImage{
+    margin:auto;
+  }
+}
